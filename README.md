@@ -1,28 +1,60 @@
-![GitHub Repo Size](https://img.shields.io/github/repo-size/FAMAF-resources/Template-repository)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/FAMAF-resources/3ro_2C-Arquitectura_de_Computadoras-FAMAF)
 
-# Materia - FAMAF - Computacion
+# Arquitectura de Computadoras - FAMAF - Computacion
 
-> Cuatrimestre
+> 2C
 
-Necesita tener aprobada:
+## Correlativas para **cursar**
 
-- 1
+| Materia                             | Condición    |
+| ----------------------------------- | ------------ |
+| Organizacion del Computador | Aprobada |
+| Sistemas Operativos | Regularizada |
 
-Es correlativa de:
+## Correlativas para **aprobar**
 
-- 1
+| Materia                             | Condición    |
+| ----------------------------------- | ------------ |
+| Organizacion del Computador | Aprobada |
+| Sistemas Operativos | Aprobada     |
+
+## Es correlativa de:
+
+- Ninguna.
 
 ## Clonar el repositorio
 
+**https**
+
 ```bash
-git clone <repo-url>
+git clone --recurse-submodules https://github.com/FAMAF-resources/3ro_2C-Arquitectura_de_Computadoras-FAMAF.git
 ```
 
-# Contribuciones
+**ssh (recomendado)**
 
-Cualquier persona puede realiza su aporte con apunte, libro, o actualizacion de este repositoro. Puede ser realizado por una pull request (PR) comunicarse con los administradores.
+```bash
+git clone --recurse-submodules git@github.com:FAMAF-resources/3ro_2C-Arquitectura_de_Computadoras-FAMAF.git
+```
+
+## Update
+
+```bash
+git pull && git submodule update --init --recursive
+```
+
+## Aula virtual
+
+- [2023](https://famaf.aulavirtual.unc.edu.ar/course/view.php?id=176&section=0)
+
+# ¿Cómo contribuir?
+
+Este es un proyecto con fines de facilitar el acceso al material para estudio.
+
+Cualquier persona puede realizar su aporte, sea apunte, libro, o actualizacion de este repositoro.
+
+Puede ser realizado por una pull request (PR) o comunicándose con los administradores.
 
 # Contributors
-<a href="https://github.com/FAMAF-resources/Template-repository/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=FAMAF-resources/Template-repository"/>
+<a href="https://github.com/FAMAF-resources/3ro_2C-Arquitectura_de_Computadoras-FAMAF/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FAMAF-resources/3ro_2C-Arquitectura_de_Computadoras-FAMAF" height="50"/>
 </a>
